@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  <h1 id="title">KSense Survey Form</h1>
+  <p id="description">Thank you for your time to help us improve our customer experience</p>
+  <form id="survey-form">
+    <label id="name-label" for="name">Name</label>
+    <input 
+    id="name"
+    type="text"
+    placeholder="Enter your name"
+    required>
+    </input>
+    <br><br>
+    <label id="email-label" for="email">Email</label>
+    <input
+      id="email"
+      type="email"
+      placeholder="Enter your email"
+      required
+    >
+    <br><br>
+    <label id="number-label" for="number">Age (Optional)</label>
+    <input
+      id="number"
+      type="number"
+      placeholder="Enter your age"
+      min="10"
+      max="100"
+    >
+    <br><br>
+    <p>Why did you choose to shop from us?</p>  
+    <select id="dropdown">
+      <option value="">Select an option</option>
+      <option value="convenience">Convenience</option>
+      <option value="better-prices">Better prices</option>
+      <option value="wider-selection">Wider selection</option>
+      <option value="reading-reviews">Reading reviews</option>
+      <option value="gift-shopping">Gift shopping</option>
+      <option value="other">Other</option>
+    </select>
+    <br><br>
+
+    <p>Would you recommend us to a friend?</p>
+    <input type="radio" id="yes" name="recommend" value="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" id="maybe" name="recommend" value="maybe">
+    <label for="maybe">Maybe</label>
+    <input type="radio" id="no" name="recommend" value="no">
+    <label for="no">No</label>
+    <br><br>
+
+    <p>What Would you Like to See Improved?</p>
+    <input type="checkbox" value="wider-selection">Wider Selection of Items
+    <input type="checkbox"
+    value="photos-videos">More Photos/Vids
+    <input type="checkbox" value="faster-delivery-options">Faster delivery Options
+    <input type="checkbox" value="other">Other
+    <br><br>
+    <textarea placeholder="Additional comments"></textarea>
+
+        <br><br>
+
+        <button id="submit" type="submit">Submit</button>
+
+    </form>
+
+
+
+
+ </body>
+</html>
