@@ -1,0 +1,23 @@
+body {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 50px 0;
+  min-height: calc(100vh - 100px);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+hr,
+section {
+  width: 80%;
+  margin: 20px auto;
+}
+section {
+  padding: 10px;
+}
