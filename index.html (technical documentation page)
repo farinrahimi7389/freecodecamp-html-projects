@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development Documentation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav id="navbar">
+  <header>Web Development Docs</header>
+
+  <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+  <a class="nav-link" href="#CSS_Basics">CSS Basics</a>
+  <a class="nav-link" href="#JavaScript">JavaScript</a>
+  <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+  <a class="nav-link" href="#Web_Accessibility">Web Accessibility</a>
+</nav>
+
+
+<main id="main-doc">
+
+  <section class="main-section" id="HTML_Basics">
+    <header>HTML Basics</header>
+
+    <p>HTML is the standard language used to create the structure of web pages.</p>
+    <p>HTML elements describe content such as headings, paragraphs, images, and links.</p>
+
+    <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+
+    <p>A basic HTML document contains several important parts:</p>
+
+    <ul>
+      <li>DOCTYPE declaration</li>
+      <li>HTML element</li>
+      <li>Head section</li>
+      <li>Body section</li>
+    </ul>
+
+    <code>&lt;html&gt;&lt;/html&gt;</code>
+
+  </section>
+
+
+  <section class="main-section" id="CSS_Basics">
+    <header>CSS Basics</header>
+
+    <p>CSS controls the appearance and layout of HTML elements.</p>
+    <p>Selectors allow developers to target specific elements on a page.</p>
+
+    <code>body { background: white; }</code>
+
+    <p>Common CSS properties include:</p>
+
+    <ul>
+      <li>color</li>
+      <li>margin</li>
+      <li>padding</li>
+    </ul>
+
+    <code>.title { font-size: 20px; }</code>
+
+  </section>
+
+
+  <section class="main-section" id="JavaScript">
+    <header>JavaScript</header>
+
+    <p>JavaScript adds interaction and dynamic behavior to websites.</p>
+    <p>It can update content, respond to events, and communicate with servers.</p>
+
+    <code>console.log("Hello World");</code>
+
+    <p>JavaScript concepts include:</p>
+
+    <ul>
+      <li>Variables</li>
+      <li>Functions</li>
+      <li>Objects</li>
+    </ul>
+
+    <code>let name = "Alex";</code>
+
+  </section>
+
+
+  <section class="main-section" id="Responsive_Design">
+    <header>Responsive Design</header>
+
+    <p>Responsive design allows websites to work on different screen sizes.</p>
+    <p>Media queries are commonly used to create responsive layouts.</p>
+
+    <code>@media (max-width: 600px) { }</code>
+
+    <p>Responsive websites often use:</p>
+
+    <ul>
+      <li>Flexible layouts</li>
+      <li>Relative units</li>
+      <li>Mobile-first design</li>
+    </ul>
+
+  </section>
+
+
+  <section class="main-section" id="Web_Accessibility">
+    <header>Web Accessibility</header>
+
+    <p>Accessibility ensures websites can be used by everyone.</p>
+    <p>Developers should consider users with different abilities.</p>
+
+    <code>alt="Image description"</code>
+
+    <p>Accessibility practices include:</p>
+
+    <ul>
+      <li>Using semantic HTML</li>
+      <li>Providing text alternatives</li>
+      <li>Supporting keyboard navigation</li>
+    </ul>
+
+  </section>
+
+
+</main>
+
+</body>
+</html>
