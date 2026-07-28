@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playing Cards</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      background-color: #0b3d2e;
+      font-family: Arial, sans-serif;
+    }
+
+    #playing-cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      width: 180px;
+      height: 260px;
+      background-color: white;
+      border-radius: 15px;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      font-size: 30px;
+    }
+
+    .left {
+      display: flex;
+      align-self: flex-start;
+      color: red;
+    }
+
+    .middle {
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+      justify-content: center;
+      align-items: center;
+      font-size: 60px;
+    }
+
+    .right {
+      display: flex;
+      align-self: flex-end;
+      color: red;
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main id="playing-cards">
+
+    <div class="card">
+      <div class="left">A♥</div>
+      <div class="middle">
+        <div>♥</div>
+        <div>♥</div>
+      </div>
+      <div class="right">A♥</div>
+    </div>
+
+    <div class="card">
+      <div class="left">K♠</div>
+      <div class="middle">
+        <div>♠</div>
+        <div>♠</div>
+      </div>
+      <div class="right">K♠</div>
+    </div>
+
+    <div class="card">
+      <div class="left">Q♦</div>
+      <div class="middle">
+        <div>♦</div>
+        <div>♦</div>
+      </div>
+      <div class="right">Q♦</div>
+    </div>
+
+  </main>
+
+</body>
+</html>
