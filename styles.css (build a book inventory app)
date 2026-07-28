@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+
+/* Row backgrounds */
+
+tr[class="read"] {
+  background-image: linear-gradient(#d4ffd4, #ffffff);
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(#fff4b8, #ffffff);
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(#b8dcff, #ffffff);
+}
+
+
+/* All spans */
+
+span {
+  display: inline-block;
+}
+
+
+/* Status styles */
+
+tr[class="to-read"] span[class="status"] {
+  border: 2px solid #d4a000;
+  background-image: linear-gradient(#ffe680, #fff);
+}
+
+tr[class="read"] span[class="status"] {
+  border: 2px solid green;
+  background-image: linear-gradient(#8cff8c, #fff);
+}
+
+tr[class="in-progress"] span[class="status"] {
+  border: 2px solid blue;
+  background-image: linear-gradient(#8ccfff, #fff);
+}
+
+
+/* Status and rate sizing */
+
+span[class="status"],
+span[class^="rate"] {
+  height: 30px;
+  width: 100px;
+  padding: 5px;
+}
+
+
+/* Rating circles */
+
+span[class^="rate"] > span {
+  border: 2px solid #555;
+  border-radius: 50%;
+  margin: 2px;
+  height: 15px;
+  width: 15px;
+  background-color: white;
+}
+
+
+/* One star */
+
+span[class~="one"] > span:first-child {
+  background-image: linear-gradient(#ffd700, #ff9900);
+}
+
+
+/* Two stars */
+
+span[class~="two"] > span:nth-child(-n+2) {
+  background-image: linear-gradient(#ffd700, #ff9900);
+}
+
+
+/* Three stars */
+
+span[class~="three"] > span {
+  background-image: linear-gradient(#ffd700, #ff9900);
+}
