@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Times</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <main class="newspaper-layout">
+
+    <header class="title">
+      <h1>Daily Times</h1>
+    </header>
+
+    <article class="feature-article">
+      <h2>Major Breakthrough in Renewable Energy</h2>
+      <p>
+        Scientists have announced a major advancement in renewable energy
+        technology that could dramatically reduce the world's dependence on
+        fossil fuels.
+      </p>
+    </article>
+
+    <article class="secondary-article">
+      <h2>Local Community Celebrates Success</h2>
+      <p>
+        Residents gathered downtown to celebrate the opening of a new community
+        center designed to support education and local events.
+      </p>
+    </article>
+
+    <figure class="cover-image">
+      <img
+        src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800"
+        alt="Newspaper"
+      />
+    </figure>
+
+    <article class="small-article1">
+      <h3>Sports</h3>
+      <p>The home team secured a dramatic victory in the final minutes.</p>
+    </article>
+
+    <article class="small-article2">
+      <h3>Technology</h3>
+      <p>New AI tools continue to transform workplaces around the world.</p>
+    </article>
+
+    <article class="small-article3">
+      <h3>Weather</h3>
+      <p>Sunny skies are expected throughout the weekend with mild temperatures.</p>
+    </article>
+
+  </main>
+
+</body>
+</html>
